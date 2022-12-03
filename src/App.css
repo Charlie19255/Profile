@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+
+:root{
+  margin: 10px 10px;
+  padding: 10px 10px;
+  width:auto;
+  height:auto;
+  background-color:#F9D5CD;
+}
+.FirstProject{
+  width:100%;
+  height:700px;
+}
+.Caption{
+  font-size: large;
+  color:black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-tabs .nav-link.active.TabsSingle {
+  color: #F9AB9B;
+  background-color:#CDF9EB;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+  padding:10px;
+  margin: 0px 10px 10px 100px;
+  font-family: Holtwood One SC;
+}
+.textbox{
+  width: 90%;
+  height:150px;
+  border: 3px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.submit{
+  background-color:#AEF4BA ;
+  margin:0px 45% 0px;
+  border-radius: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
