@@ -12,12 +12,12 @@ function App() {
     <>
     <header style={{display:"flex", justifyContent:"right", backgroundColor:"#F9D5CD"}}> <a href="https://github.com/Charlie19255"><img
                 className="logo"
-                src="/img/project/hero/logo/logo1.webp"
+                src="https://charlie19255.github.io/Profile/img/project/hero/logo/logo1.webp"
                 alt="First logo"
                 style={{height:"30px"}}
               /> </a><a href="https://www.linkedin.com/in/charlie-sihaphong/"><img
               className="logo"
-              src="/img/project/hero/logo/logo2.webp"
+              src="https://charlie19255.github.io/Profile/img/project/hero/logo/logo2.webp"
               alt="Second logo"
               style={{height:"30px", borderRadius:"15px"}}
             /></a></header>
@@ -47,7 +47,7 @@ function App() {
             <img
               style={{ width: "60%", margin: "auto" }}
               className="hero"
-              src="/img/project/hero/hello.jpeg"
+              src="https://charlie19255.github.io/Profile/img/project/hero/hello.jpeg"
               alt="hero"
             />
           </div>
@@ -69,7 +69,7 @@ function App() {
         There was a time during my military service where there was a game called Master-duel. My friend and I talked about the game’s past and how the duel disk was amazing. I felt that the company had all the hardware to innovate the game and add a new way of playing the game through my idea. So I submitted the idea to the company that majors in gaming innovation, Nintendo. My idea was rejected however due to timing constraints and their development team already deciding on how to approach the game. I hope that you could consider adding me to your gaming development team so we can innovate the future of gaming together. <br></br> <img
               style={{ width: "40%", margin: "auto" }}
               className="hero"
-              src="/img/project/hero/hero1.jpeg"
+              src="https://charlie19255.github.io/Profile/img/project/hero/hero1.jpeg"
               alt="hero"
             /></Tab>
         <Tab tabClassName="TabsSingle" eventKey="Projects" title="Projects">
@@ -77,7 +77,7 @@ function App() {
             <CarouselItem>
               <img 
                 className="FirstProject"
-                src="/img/project/First.png"
+                src="https://charlie19255.github.io/Profile/img/project/First.png"
                 alt="First slide"
               />
               <Carousel.Caption style={{color:"black",fontSize:"50px",fontFamily: "Ultra"}} >Pig Latin</Carousel.Caption>
@@ -86,7 +86,7 @@ function App() {
             <CarouselItem>
               <img 
                 className="FirstProject"
-                src="/img/project/Second.png"
+                src="https://charlie19255.github.io/Profile/img/project/Second.png"
                 alt="Second slide"
               />
               <Carousel.Caption style={{color:"black",fontSize:"50px",fontFamily: "Ultra"}}>Tic Tac Toe</Carousel.Caption>
@@ -95,7 +95,7 @@ function App() {
             <CarouselItem>
               <img 
                 className="FirstProject"
-                src="/img/project/Third.png"
+                src="https://charlie19255.github.io/Profile/img/project/Third.png"
                 alt="Third slide"
               />
               <Carousel.Caption style={{color:"black",fontSize:"50px",fontFamily: "Ultra"}}>Treasure Hunt</Carousel.Caption>
@@ -104,7 +104,7 @@ function App() {
             <CarouselItem>
               <img 
                 className="FirstProject"
-                src="/img/project/Fourth.png"
+                src="https://charlie19255.github.io/Profile/img/project/Fourth.png"
                 alt="Fourth slide"
               />
               <Carousel.Caption style={{color:"white", fontSize:"50px",fontFamily: "Ultra"}}>Text Based Game</Carousel.Caption>
@@ -112,7 +112,7 @@ function App() {
             <CarouselItem>
               <img 
                 className="FirstProject"
-                src="/img/project/Fifth.png"
+                src="https://charlie19255.github.io/Profile/img/project/Fifth.png"
                 alt="Fifth slide"
               />
               <Carousel.Caption style={{color:"white", fontSize:"50px",fontFamily: "Ultra"}}>Car Project</Carousel.Caption>
@@ -123,12 +123,12 @@ function App() {
           <div style={{display:"flex", justifyContent:"center"}}>
         <a><img
                 className="logo"
-                src="/img/project/hero/logo/logo1.webp"
+                src="https://charlie19255.github.io/Profile/img/project/hero/logo/logo1.webp"
                 alt="First logo"
                 style={{height:"300px"}}
               /> </a><a href="https://www.linkedin.com/in/charlie-sihaphong/"><img
               className="logo"
-              src="/img/project/hero/logo/logo2.webp"
+              src="https://charlie19255.github.io/Profile/img/project/hero/logo/logo2.webp"
               alt="Second logo"
               style={{height:"300px", borderRadius:"15px"}}
             /></a></div><div style={{display:"flex", justifyContent:"center", fontSize:"30px", fontFamily: "Ultra"}}>
