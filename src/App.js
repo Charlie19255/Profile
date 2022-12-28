@@ -262,7 +262,8 @@ function App() {
       </EffectComposer>
       </Suspense>
     </Canvas>
-          Hi, my name is Charlie. I’m currently enrolled in Learn Academy. It is the first step in my passion to help advance the future of gaming. It is because Learn Academy will help provide me the program language fundamentals into writing code for gaming that is out of this world! 
+    Hi, my name is Charlie. I’m currently enrolled in a full-stack bootcamp at Learn Academy. It is the first step in pursuing my passion to help advance the future of gaming. It is because Learn Academy will help provide me the I'm mastering programming language fundamentals, so I can grow into writing code for gaming that is out of this world!
+          {/* Hi, my name is Charlie. I’m currently enrolled in Learn Academy. It is the first step in my passion to help advance the future of gaming. It is because Learn Academy will help provide me the program language fundamentals into writing code for gaming that is out of this world!  */}
         {/* <br></br><br></br>
         I am a US navy veteran and a major time killer for us during deployment was playing video games. It is a place mostly without wifi or service. I feel that I can innovate the gaming world to provide a more realistic experience where it isn’t dictated by how well connected you are to a service and more of the camaraderie that is made from the interactions you have with the people around you. 
         <div></div><br></br>
