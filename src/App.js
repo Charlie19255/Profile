@@ -391,6 +391,7 @@ function App() {
               </EffectComposer>
             </Suspense>
           </Canvas>
+          Note planet size and orbiting speeds are not to scale
           {/* Hi, my name is Charlie. I’m currently enrolled in a full-stack
           bootcamp at Learn Academy. It is the first step in pursuing my passion
           to help advance the future of gaming.I'm mastering programming
