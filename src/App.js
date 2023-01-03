@@ -32,13 +32,13 @@ function Atom(props) {
   return (
     <group {...props}>
       <Line points={point} color="gray" lineWidth={0.3} />
-      <Text scale={[20, 20, 10]} color="red" position={[0, 5, 0]}>
+      <Text scale={[20, 20, 10]} color="plum" position={[0, 5, 0]}>
         HELLO WORLD!
       </Text>
       <Text scale={[10, 10, 10]} color="lightgreen" position={[0, 3.7, 0]}>
         Hi, my name is Charlie.
       </Text>
-      <Text scale={[10, 10, 10]} color="lightgreen"  position={[0, 2.7, 0]}>
+      <Text scale={[10, 10, 10]} color="lightgreen"  position={[0, 2.7, 0]} >
         I’m currently enrolled in a 
         </Text>
         <Text scale={[10, 10, 10]} color="lightgreen"  position={[0, 1.7, 0]}>
@@ -423,8 +423,14 @@ function App() {
                   fontFamily: "Ultra",
                 }}
               >
-                Pig Latin <br></br> React
-              </Carousel.Caption>
+                Pig Latin
+                <div style={{
+                  color: "black",
+                  fontSize: "20px",
+                  fontFamily: "Ultra",
+                }}>This project uses react. Taking in an input provided and outputing the input in pig latin.</div>
+              </Carousel.Caption> <br></br>
+            
             </CarouselItem>
 
             <CarouselItem>
@@ -439,12 +445,16 @@ function App() {
                 />
                 <Carousel.Caption
                   style={{
-                    color: "black",
+                    color: "lightblue",
                     fontSize: "50px",
                     fontFamily: "Ultra",
                   }}
                 >
-                  Tic Tac Toe<br></br> React
+                  Tic Tac Toe<div style={{
+                  color: "lightblue",
+                  fontSize: "20px",
+                  fontFamily: "Ultra",
+                }}>This project uses react. Utilizing functions to place a character in a space and determine if an individual has three in a row or a stalemate.</div>
                 </Carousel.Caption>
               </a>
             </CarouselItem>
@@ -461,12 +471,16 @@ function App() {
                 />
                 <Carousel.Caption
                   style={{
-                    color: "black",
+                    color: "lightblue",
                     fontSize: "50px",
                     fontFamily: "Ultra",
                   }}
                 >
-                  Treasure Hunt<br></br> React
+                  Treasure Hunt <div style={{
+                  color: "lightblue",
+                  fontSize: "20px",
+                  fontFamily: "Ultra",
+                }}>This project uses react. Utilizing state and a random generator in order to find the treasure.</div>
                 </Carousel.Caption>
               </a>
             </CarouselItem>
@@ -483,12 +497,16 @@ function App() {
                 />
                 <Carousel.Caption
                   style={{
-                    color: "white",
+                    color: "lightblue",
                     fontSize: "50px",
                     fontFamily: "Ultra",
                   }}
                 >
-                  Text Based Game<br></br> Ruby
+                  Text Based Game<div style={{
+                  color: "lightblue",
+                  fontSize: "20px",
+                  fontFamily: "Ultra",
+                }}>This project uses ruby. The code is run in the ruby console to make a choose your own story game.</div>
                 </Carousel.Caption>
               </a>
             </CarouselItem>
@@ -504,12 +522,16 @@ function App() {
                 />
                 <Carousel.Caption
                   style={{
-                    color: "white",
+                    color: "lightblue",
                     fontSize: "50px",
                     fontFamily: "Ultra",
                   }}
                 >
-                  Car Project <br></br> React
+                  Car Project <div style={{
+                  color: "lightblue",
+                  fontSize: "20px",
+                  fontFamily: "Ultra",
+                }}>This project uses react. Utilizing different dependencies in react to run a 3D world.</div>
                 </Carousel.Caption>
               </a>
             </CarouselItem>
@@ -551,7 +573,10 @@ function App() {
               fontFamily: "Ultra",
             }}
           >
-            Email: charlie19255@gmail.com
+            Email: <a
+              href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmlkCMjNcDvpcPmMMCLxlhrbtXzSgmkRvCVfpWPhxtbKhdQqmRPwWBbZsfBSHjdCwmZRhL"
+              target="_blank"
+            > charlie19255@gmail.com</a>
           </div>
         </Tab>
       </Tabs>
